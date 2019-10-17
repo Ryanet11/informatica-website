@@ -1,39 +1,52 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .topnav {
+}
+.navwrapper {
+    padding-top: none;
+    width: 100%;
+}
+.topnav {
     overflow: hidden;
     background-color: #008dab;
     position: relative;
-  }
-  
-  .topnav #myLinks {
+}
+
+.topnav #myLinks {
     display: none;
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
-  
-  .topnav a.icon {
-    background: black;
+}
+
+.topnav a.icon {
+    background: #008dab;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: #006b82;
     color: black;
-  }
-  
-  .active {
+}
+
+.active {
     background-color: #007294;
     color: white;
-  }
+}
+.col-12 > .navwrapper {
+    padding-top: none;
+}
+.navwrapperwrapper {
+    display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+    align-items: stretch;
+    margin-top: 0;
+}
