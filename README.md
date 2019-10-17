@@ -1,2 +1,0 @@
-# informatica-website
- 
