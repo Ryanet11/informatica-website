@@ -1593,7 +1593,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner-wrapper {
-		background: #c8d2bc url(images/bg1.png);
+		background-image: "images/pic1.jpg";
 		padding: 2em 0;
 	}
 
@@ -1963,7 +1963,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner-wrapper {
-				background: #c8d2bc url(images/bg1.png);
+				background-image: "images/pic1.jpg";
 				padding: 20px 0;
 			}
 
@@ -2011,3 +2011,8 @@ input, select, textarea {
 				}
 
 	}
+#banner-wrapper{
+	bg-image: "images/pic1.jpg";
+}
+
+
