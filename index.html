@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -18,9 +19,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
-								<header id="header">
+								<!--header id="header">
 									<h1><a href="index.html" id="logo">datacompressie</a></h1>
-									<nav id="nav">
+									<nav id="customnav">
 										<a href="index.html">Homepage</a>
 										<a href="w-i-d.html" class="current-page-item">Wat is datacompressie</a>
 										<a href="t-d.html">Typen datacompressie</a>
@@ -29,7 +30,23 @@
 										<a href="c-p.html">Compressie Programma's</a>
 										<a href="#taakverdeling">Taakverdeling</a>
 									</nav>
+								</header-->
+								<header class="topnav">
+									<h1><a href="index.html" id="logo">Datacompressie</a></h1>
+									<nav id="myLinks">
+										<a href="index.html">Homepage</a>
+										<a href="w-i-d.html" class="active">Wat is datacompressie</a>
+										<a href="t-d.html">Typen datacompressie</a>
+										<a href="t.html">Toepassingen datacompressie</a>
+										<a href="a.html">Algoritmen</a>
+										<a href="c-p.html">Compressie Programma's</a>
+										<a href="#taakverdeling">Taakverdeling</a>
+									</nav>
+									<a href="javascript:void(0);" class="icon" onclick="customNavBar()">
+										<i class="fa fa-bars"></i>
+									</a>
 								</header>
+								  
 							</div>
 						</div>
 					</div>
@@ -174,6 +191,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/navbar.js"></script>
 	</body>
 </html>
