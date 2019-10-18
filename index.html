@@ -11,7 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/navbar.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/audio.css" />
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -55,8 +56,14 @@
 				<div id="banner-wrapper">
 					<div class="container">
 						<div id="banner">
-							<h2>Put something cool here!</h2>
-							<span>And put something almost as cool here, but a bit longer ...</span>
+							<h2>luister een muziekje.</h2>
+							<div id="music-player"> 
+									<audio id="music"><source src="music\music.mp3"></audio> 
+									<input type="image" src="images/icons8-play-64.png" onclick="play_audio()" id="player-buttons"> 
+									<input type="image" src="images/icons8-pause-64.png" onclick="pause_audio()" id="player-buttons"> 
+									<img src="images/icons8-volume-level-64.png" id="volume-image"> 
+									<input type="range" id="player-change-vol" onchange="change_volume()" step="0.05" min="0" max="1" value="1"> 
+								</div> 
 						</div>
 
 					</div>
@@ -192,5 +199,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/navbar.js"></script>
+			<script src="assets/js/audio.js"></script>
 	</body>
 </html>
