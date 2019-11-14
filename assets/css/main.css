@@ -1,4 +1,8 @@
+/* Import */
+@import url("navbar.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+
 
 /*
 	Minimaxing by HTML5 UP
@@ -1915,7 +1919,8 @@ input, select, textarea {
 
 	}
 #banner-wrapper{
-	bg-image: "images/pic1.jpg";
+	background-image: "images/pic1.jpg";
 }
-
-
+#mylinks > a {
+	font-family: Arial, Helvetica, sans-serif;
+}
