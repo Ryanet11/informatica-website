@@ -6,3 +6,6 @@ function customNavBar() {
       x.style.display = "block";
     }
   }
+function SUBMIT() {
+  document.getElementById("Form1").innerHTML = "<h3>Bedankt voor het aanvragen van informatie.</h3>";
+}

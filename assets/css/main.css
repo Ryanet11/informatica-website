@@ -1923,4 +1923,9 @@ input, select, textarea {
 }
 #mylinks > a {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+.big-button {
+	background-color: #007897;
+	color: #fff;
 }
