@@ -51,6 +51,7 @@ body {
     margin-top: 0;
 }
 .background-container {
-    background-image: url(images/background8.jpg);
+    background-image: url(images/background.jpg);
     background-attachment: fixed;
+    background-size: 1920px 1080px;
 }
