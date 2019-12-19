@@ -1932,3 +1932,6 @@ input, select, textarea {
 .vid-img {
 	float: left;
 }
+#unordered-list {
+	list-style-type: disc;
+}
