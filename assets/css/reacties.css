@@ -1,0 +1,15 @@
+h3 {
+    color: #000;
+}
+#commentbox {
+    position: fixed;
+}
+.pxmar {
+    margin-top: 10px;
+}
+#name {
+    margin-bottom: 0px;
+}
+#message {
+    margin-bottom: 0px;
+}

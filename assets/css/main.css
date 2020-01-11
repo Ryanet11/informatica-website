@@ -1526,7 +1526,7 @@ input, select, textarea {
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		position: relative;
+		position: fixed;
 		margin: 2.5% 0 2.5% 0;
 		padding: 0 40px 0 40px;
 		border-radius: 10px;
@@ -1934,4 +1934,7 @@ input, select, textarea {
 }
 #unordered-list {
 	list-style-type: disc;
+}
+.topnav {
+	position: fixed;
 }
